@@ -1,0 +1,33 @@
+{
+  "name": "html-webpack-custom-position",
+  "version": "1.0.0",
+  "description": "自定义资源在HTML上的位置",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustinjackson/html-webpack-inl.git"
+  },
+  "keywords": [
+    "custom",
+    "postion"
+  ],
+  "author": "TMQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dustinjackson/html-webpack-inl/issues"
+  },
+  "homepage": "https://github.com/dustinjackson/html-webpack-inl#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "jasmine": "^2.8.0",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  }
+}
