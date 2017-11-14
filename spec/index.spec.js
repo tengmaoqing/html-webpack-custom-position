@@ -1,8 +1,8 @@
 /*
 * @Author: Elvmx
 * @Date:   2017-11-14 10:36:25
-* @Last Modified by:   Elvmx
-* @Last Modified time: 2017-11-14 14:31:30
+* @Last Modified by:   tengmaoqing
+* @Last Modified time: 2017-11-14 16:08:07
 */
 const webpack = require('webpack');
 const rm_rf = require('rimraf');
@@ -182,7 +182,6 @@ describe('HTMLWebpackCustomPosition', () => {
       fs.readFile(htmlFile, 'utf8', function (er, data) {
         expect(er).toBeFalsy();
         var $ = cheerio.load(data);
-        console.log($('html').html());
         expect($('head link').length).toBe(0);
         expect($('body link[href="style.css"]').length).toBe(1);
         expect($('head script').length).toBe(1);
