@@ -1,8 +1,8 @@
 /*
-* @Author: Elvmx
+* @Author: tengmaoqing
 * @Date:   2017-11-14 10:36:25
 * @Last Modified by:   tengmaoqing
-* @Last Modified time: 2017-11-14 16:08:07
+* @Last Modified time: 2017-11-14 16:33:01
 */
 const webpack = require('webpack');
 const rm_rf = require('rimraf');
@@ -11,7 +11,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const fs = require('fs');
 const cheerio = require('cheerio');
-const { isNumber } = require('../test.js');
 const Custom = require('../');
 
 const OUTPUT_DIR = path.join(__dirname, '../dist');
@@ -191,10 +190,4 @@ describe('HTMLWebpackCustomPosition', () => {
     })
   });
 
-  it('should return true', done => {
-    expect(isNumber(2)).toBe(true);
-    expect(isNumber(0)).toBe(true);
-    expect(isNumber(Infinity)).toBe(true);
-    done();
-  });
 });
