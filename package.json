@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dustinjackson/html-webpack-inl.git"
+    "url": "git+https://github.com/tengmaoqing/html-webpack-custom-position.git"
   },
   "keywords": [
     "custom",
@@ -17,9 +17,9 @@
   "author": "TMQ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dustinjackson/html-webpack-inl/issues"
+    "url": "https://github.com/tengmaoqing/html-webpack-custom-position/issues"
   },
-  "homepage": "https://github.com/dustinjackson/html-webpack-inl#readme",
+  "homepage": "https://github.com/tengmaoqing/html-webpack-custom-position",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
     "css-loader": "^0.28.7",
