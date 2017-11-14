@@ -1,4 +1,7 @@
+
 ### 在HTML-webpack-plugin 中自定义静态资源的位置
+========================================
+[![Build Status](https://travis-ci.org/tengmaoqing/html-webpack-custom-position.svg?branch=master)](https://travis-ci.org/tengmaoqing/html-webpack-custom-position)
 
 npm安装
 ------------
